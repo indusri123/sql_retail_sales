@@ -76,7 +76,7 @@ WHERE
 			OR
 			category IS NULL
 			OR
-			quantiy IS NULL
+			quantity IS NULL
 			OR
 			price_per_unit IS NULL
 			OR
@@ -105,7 +105,7 @@ WHERE
 	AND
 	quantity > 4
 	AND
-	TO_CHAR(sale_date , 'YYYY-MM') = 2022-11;
+	TO_CHAR(sale_date , 'YYYY-MM') = '2022-11';
 ```
 
 3. **Write a SQL query to calculate the total sales (total_sale) for each category.**:
